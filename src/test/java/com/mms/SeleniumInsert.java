@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class SeleniumInsert {
 
 	@Test
-	public void insertOperationTest() {
+	void insertOperationTest() {
 
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
