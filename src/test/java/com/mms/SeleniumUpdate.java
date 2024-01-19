@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class SeleniumUpdate {
 
 	@Test
-	public void updateOperationTest() {
+	void updateOperationTest() {
 
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
