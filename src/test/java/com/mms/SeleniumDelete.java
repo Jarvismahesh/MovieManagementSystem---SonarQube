@@ -5,10 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class SeleniumDelete {
+public class SeleniumDeleteTest {
 
 	@Test
-	public void deleteOperationTest() {
+	void deleteOperationTest() {
 
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
@@ -34,7 +34,7 @@ public class SeleniumDelete {
 	}
 
 	public static void main(String[] args) {
-		SeleniumDelete test = new SeleniumDelete();
+		SeleniumDeleteTest test = new SeleniumDeleteTest();
 		test.deleteOperationTest();
 	}
 
