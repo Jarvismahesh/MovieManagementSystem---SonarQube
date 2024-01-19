@@ -34,7 +34,7 @@ class MmsysApplicationTests {
 
 	@Test
 	@Order(1)
-	void testPerformInsert() {
+	public void testPerformInsert() {
 		insert = "Inserted";
 		resone = controller.performInsert(mov);
 		assertEquals(insert, resone);
@@ -42,7 +42,7 @@ class MmsysApplicationTests {
 
 	@Test
 	@Order(2)
-	void testPerformUpdate() {
+	public void testPerformUpdate() {
 
 		update = "Updated";
 		resone = controller.performUpdate(mov1);
@@ -51,7 +51,7 @@ class MmsysApplicationTests {
 
 	@Test
 	@Order(4)
-	void testPerformDelete() {
+	public void testPerformDelete() {
 		delete = "Deleted";
 		resone = controller.performDelete(15);
 		restwo = controller.performDelete(20);
@@ -61,7 +61,7 @@ class MmsysApplicationTests {
 	}
 
 	@Test
-	void testViewAllEmployee() {
+	public void testViewAllEmployee() {
 		list = controller.viewAllEmployee();
 		Movie mov2 = new Movie(16, "Mersal", "Action", "Tamil", "3");
 		Movie mov3 = new Movie(17, "Katthi", "Action", "Tamil", "2");

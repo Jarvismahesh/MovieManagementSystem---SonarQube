@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class SeleniumViewAllTest {
 
 	@Test
-	public void viewAllOperation() {
+	void viewAllOperation() {
 
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
